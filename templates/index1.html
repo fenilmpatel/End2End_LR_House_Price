@@ -1,0 +1,36 @@
+{% extends "layout01.html" %}
+{% block temp %}
+
+
+
+    <div class="content-section">
+ 
+
+        <div class="form-group">
+          <form method="POST" action="{{ url_for('predict')}}">
+              <input type="text" name="OverallQual" class="form-control" rows="2" cols="80"  placeholder="Overall Quality e.g. 5" required="required" /><br><br>
+              <input type="text" name="ExterQual" class="form-control" rows="2" cols="80"  placeholder="Exterior Material Quality" required="required" /><br><br>
+              <input type="text" name="MiscVal" class="form-control" rows="2" cols="80"  placeholder="Miscellaneous e.g 10000" required="required" /><br><br>
+        
+              <input type="text" name="LotArea" class="form-control" rows="2" cols="80"  placeholder="Lot size e.g 15000" required="required" /><br><br>
+              <input type="text" name="KitchenQual" class="form-control" rows="2" cols="80"  placeholder="Kitchen Quality e.g 5" required="required" /><br><br>
+              <input type="text" name="BsmtQual" class="form-control" rows="2" cols="80"  placeholder="Basement Height e.g 3" required="required" /><br><br>
+
+              <input type="text" name="MSZoning" class="form-control" rows="2" cols="80"  placeholder="The General Zoning e.g. 3" required="required" /><br><br>
+              <input type="text" name="GarageFinish" class="form-control" rows="2" cols="80"  placeholder="Interior Finish e.g.5" required="required" /><br><br>
+              <input type="text" name="GarageYrBlt" class="form-control" rows="2" cols="80"  placeholder="Year of Garage e.g 1998" required="required" /><br><br>
+              <input type="text" name="Heating" class="form-control" rows="2" cols="80"  placeholder="Type of Heating e.g. 4" required="required" /><br><br>
+
+        
+        
+              <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        
+            
+            
+        </form>
+    </div>
+    </div>
+    <br>
+   <br>
+   
+{% endblock temp %}
