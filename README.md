@@ -1,2 +1,2 @@
-# Check Out The Live Demo Of Above Models I made by Your Self By Clicking the below link
+# check live app serving on api fill the various variables into app and check how prediction look like
 https://houseprice39.herokuapp.com/
