@@ -4,7 +4,7 @@ ENV app /app
 
 WORKDIR $app
 
-COPY . ./
+COPY ./ ./
 
 RUN pip install -r requirement.txt
  
