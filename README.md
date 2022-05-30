@@ -1,2 +1,2 @@
-# live app serving on api, fill the various variables into app and check how prediction look like.
+# Checkout the Live Demo!
 https://houseprice39.herokuapp.com/
